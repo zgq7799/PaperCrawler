@@ -1,4 +1,4 @@
-# PaperCrawl
+# PaperCrawler
 
 * A simple tool to crawl papers information.
 
