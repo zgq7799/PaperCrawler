@@ -1,6 +1,6 @@
 # PaperCrawler
 
-* A simple tool to crawl papers information.
+* A simple tool to crawl papers information based on Python3.6 .
 
 * Now this project only support for AAAI / ACL series conferences(such as ACL, EMNLP, COLING, NAACL, CoNLL... , please see my code).
 
