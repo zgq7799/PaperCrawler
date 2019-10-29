@@ -50,7 +50,7 @@ class ACLDownloader:
         if not os.path.exists(self.target_file_folder):
             os.makedirs(self.target_file_folder)
         for index, (code, title) in enumerate(self.result):
-            download_url = self.download_prefix + code
+            download_url = self.download_prefix + code + '.pdf'
             binary_result = requests.get(download_url)
             with open(self.target_file_folder + '/' + re.sub('''[<>/:|"*?]''', ' ', title) + '.pdf', 'wb') as file:
                 file.write(binary_result.content)
